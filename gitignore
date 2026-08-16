@@ -1,0 +1,7 @@
+# Raw challenge data is private and lives outside this repo (set BBO_DATA_DIR).
+# Nothing here excludes it — it is simply never copied in.
+
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+Thumbs.db
