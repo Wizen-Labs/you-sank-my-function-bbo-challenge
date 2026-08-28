@@ -54,7 +54,6 @@ That spread is the central finding of the project: there was no single method, a
 ├── DATASHEET_AND_MODEL_CARD.md     ← dataset specification + model card
 ├── REFERENCES.md                   ← methods, algorithms, libraries + their sources
 ├── REVIEW_NOTES.md                 ← structural decisions and their rationale
-├── bbo_meta.py                     ← per-function metadata (dim / hypothesis / status / log_y)
 ├── requirements.txt
 │
 ├── tutorials/    (A) 🎓 first-principles onboarding — not in the weekly loop
@@ -101,7 +100,7 @@ The data set and the optimisation approach are both formally documented in [**`D
 * [**Part 1 — Datasheet**](DATASHEET_AND_MODEL_CARD.md#part-1-datasheet-for-the-bbo-capstone-data-set) (Gebru et al. structure): motivation, composition and exact schema, collection process, preprocessing, recommended uses and misuses, distribution, maintenance. It states plainly what the data cannot support: at 23–53 observations per function with heavy exploitation bias, global-landscape claims are hypotheses, not findings.
 * [**Part 2 — Model card**](DATASHEET_AND_MODEL_CARD.md#part-2-model-card-for-the-bbo-optimisation-approach) (Mitchell et al. structure): factors, metrics, training and evaluation data, disaggregated results per function *and per winning mechanism*, assumptions, failure modes, and ethical considerations.
 
-Both are current to campaign close. Two disclosures in there are worth reading before the results: the three-way metadata drift between `bbo_meta.py`, `04_consolidate_data` and the weekly classifier, and the label-propagation limitation that stops the anti-hallucination critic catching errors it inherits from the engine it audits.
+Both are current to campaign close. Two disclosures in there are worth reading before the results: the metadata drift between the inlined table in `A1_svm_analysis`, the dictionary in `04_consolidate_data` and the weekly classifier, and the label-propagation limitation that stops the anti-hallucination critic catching errors it inherits from the engine it audits.
 
 ---
 
