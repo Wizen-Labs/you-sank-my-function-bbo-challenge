@@ -53,8 +53,12 @@ That spread is the central finding of the project: there was no single method, a
 ├── LICENSE                         ← MIT (code + docs); data excluded, see datasheet
 ├── DATASHEET_AND_MODEL_CARD.md     ← dataset specification + model card
 ├── REFERENCES.md                   ← methods, algorithms, libraries + their sources
-├── REVIEW_NOTES.md                 ← structural decisions and their rationale
+├── REVIEW_NOTES.md                 ← scope of this review: what v1.0 covers, what is deferred
+├── REPORTS_AND_FILES_INVENTORY.md  ← every file the notebooks generate, by notebook
 ├── requirements.txt
+│
+├── Report/
+│   └── HANDOFF.md                  deferred housekeeping items, with locations
 │
 ├── tutorials/    (A) 🎓 first-principles onboarding — not in the weekly loop
 │   ├── 01_gp_bayesian_optimization_tutorial.ipynb   GP theory from scratch
