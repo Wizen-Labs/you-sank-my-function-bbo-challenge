@@ -1,0 +1,41 @@
+MIT License
+
+Copyright (c) 2026 Eduardo Wizentier
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------
+
+SCOPE OF THIS LICENCE
+
+The MIT terms above are unmodified and apply to the source code, Jupyter
+notebooks, and documentation in this repository.
+
+They do NOT apply to the challenge data.
+
+The raw challenge data (initial designs, inputs.txt, outputs.txt) is private
+and is not distributed in this repository. The derived file
+consolidated_observations.csv, together with the result CSVs and submission
+strings under pipeline/, is included solely so that the reported results can
+be reproduced and inspected. That data remains subject to the academic terms
+of the Imperial College Business School Bayesian Optimisation Challenge and
+is not licensed for redistribution or reuse.
+
+See DATASHEET_AND_MODEL_CARD.md, Part 1, "Distribution", for the full
+statement.
