@@ -1,0 +1,2 @@
+week,x1,x2,E_draw,P_beat,rationale
+14,0.98,0.3325,0.66,0.585,"argmax of expected observed draw; peak 4 of the recovered harmonic, never sampled"

@@ -1,0 +1,9 @@
+F,pathology,initial best,best-ever,ceiling (central),ceiling (high),naive GP-UCB ref,score attained,headroom,method
+F1,local_peak,0.0,2.0,2.1201,3.1863,3.184,94%,0.1202,median of {geometric asymptote 2.000 (gain ratio 0.00); GP TR mean-max 2.240}; band top = GP TR UCB 3.186
+F2,local_peak,0.6112,0.6505,0.6653,0.9748,0.988,73%,0.0148,median of {GP TR mean-max 0.665}; band top = GP TR UCB 0.975
+F3,local_peak,-0.0348,-0.0004,-0.0004,0.2285,0.346,100%,0.0,median of {no estimator above best-ever}; band top = GP TR UCB 0.228
+F4,local_peak,-4.0255,0.6549,0.6625,1.4738,1.181,100%,0.0076,median of {geometric asymptote 0.662 (gain ratio 0.34)}; band top = GP TR UCB 1.474
+F5,boundary_climb,1088.8596,8662.4825,9457.001,10251.5195,8189.734,91%,794.5185,on-line marginal gradient 1.59e+04/unit x plausible vertex distance 0.1 (headroom 18.34% of |best|)
+F6,local_peak,-0.7143,-0.2347,-0.2341,-0.1241,-0.062,100%,0.0007,median of {geometric asymptote -0.234 (gain ratio 0.15)}; band top = GP TR UCB -0.124
+F7,solved_lock,1.365,3.3224,3.3224,3.3224,3.914,100%,0.0,analytic identity — ceiling equals banked optimum
+F8,solved_lock,9.5985,10.0,10.0,10.0,10.511,100%,0.0,analytic identity — ceiling equals banked optimum

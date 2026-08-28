@@ -1,0 +1,9 @@
+function,dim,n_points,svr_r2_cv,learnability,svr_rmse_cv,svc_auc_cv,top_dims,log_y,hypothesis
+F1,2,23,-1.0,none (noise-dominated),0.7407,1.0,"x2, x1",False,background radiation: ~zero everywhere bar one point (negative control)
+F2,2,23,0.309,moderate,0.1682,0.833,"x1, x2",False,noisy six-hump; promising corner at high x1 / high x2
+F3,3,28,-0.094,none (noise-dominated),0.1006,1.0,"x3, x2",False,"Hartmann-3: sharply peaked, severely under-sampled"
+F4,4,43,0.975,high (smooth),1.4852,1.0,"x1, x2",False,smooth basin; x1 dominant (push x1 low)
+F5,4,33,0.873,high (smooth),0.8371,1.0,"x4, x3",True,huge positive dynamic range; model log1p(y)
+F6,5,33,0.875,high (smooth),0.1749,1.0,"x5, x4",False,Styblinski-Tang style wells; low x5 / high x4
+F7,6,43,0.938,high (smooth),0.2226,1.0,"x1, x6",False,Hartmann-6: under-sampled; lean on literature optimum
+F8,8,53,0.94,high (smooth),0.2886,1.0,"x3, x1",False,Ackley with broad bowl; low x1 / low x3

@@ -1,0 +1,6 @@
+week,x1,x2,rationale
+8,0.6296,1.0,"P_beat argmax; closest to data, least ringing-dependent"
+9,0.6111,1.0,observable_EI argmax; doubles as test of the ringing bump
+10,,,"BRANCH: if wk8 & wk9 <= 0.50 -> replicate exact incumbent (pins σ, doubles ν); else re-run this cell and take new P_beat"
+11,,,refit + P_beat/obs_EI argmax on updated posterior
+12,,,refit + P_beat/obs_EI argmax; every probe is an attempt

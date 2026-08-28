@@ -1,0 +1,2 @@
+form,a,b,A,phi,w,period,rmse,r2,sigma_noise,x2_relevant
+a + b*x1 + A*sin(w*x1 + phi),-0.248048,0.840847,0.185738,-1.223753,21.991149,0.285714,0.139196,0.693623,0.037626,False

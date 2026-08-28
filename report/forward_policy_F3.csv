@@ -1,0 +1,6 @@
+rank,x1,x2,x3,P_beat,rationale
+1,0.383,0.52,0.451,0.035,P_beat argmax on the log-space ensemble; competitive mean + live uncertainty
+2,0.384,0.402,0.45,0.032,batch fallback; hedges the weakly-identified x1 axis
+3,0.484,0.566,0.447,0.032,batch fallback; hedges the weakly-identified x1 axis
+4,0.391,0.622,0.447,0.031,batch fallback; hedges the weakly-identified x1 axis
+99,0.4,0.52,0.45,0.207,CONTROL ARM — model-free incumbent re-read

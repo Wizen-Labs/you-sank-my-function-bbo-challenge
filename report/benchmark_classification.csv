@@ -1,0 +1,9 @@
+F,dim,landscape_class,benchmark_family,bbob_group,confidence,decades,noise_ratio,gp_cv,cv_quad_y,max_rho,peakedness,anisotropy,boundary_opt,quad_trap
+F1,2,Single sharp peak (needle),Genz Gaussian peak / single Gallagher peak,Gaussian-peak (weak global structure),high,5.8,0.0,-9.99,-9.99,0.3,1.0,0.78,0.0,False
+F2,2,Noise-dominated (mild trend under noise),BBOB noisy suite (noisy sphere / linear-slope),noisy suite,low,0.1,0.23,-0.07,-0.5,0.48,0.24,0.88,0.0,False
+F3,3,Near-flat / uninformative (capped objective),Plateau / near-flat pathology,flat / weak structure,low,0.9,0.112,-5.04,-7.48,0.1,0.12,0.55,0.0,False
+F4,4,"Smooth concave-quadratic bowl (unimodal, interior optimum)",Linear Slope / ill-conditioned bowl (boundary optimum),separable <-> ill-conditioned unimodal,moderate,0.4,0.015,0.91,0.93,0.42,0.4,0.32,0.0,False
+F5,4,"Smooth trend, optimum UNBRACKETED (quadratic misplaces the peak)",Exponential integrand / exp-transformed slope,separable slope (exp-warped),moderate,1.6,0.006,0.8,0.78,0.86,0.97,0.36,1.0,True
+F6,5,Monotone exponential/multiplicative slope (boundary/corner optimum) + low effective dimensionality,Anisotropic slope - low effective dimensionality,ill-conditioned / low eff. dim,moderate,0.3,0.067,0.78,-1.16,0.87,0.42,0.41,0.2,False
+F7,6,Structured (mixed / undetermined),Ackley / Rastrigin / Michalewicz family (multimodal),"multimodal, weak global structure",family moderate / ID low,1.1,0.0,0.75,-9.99,0.45,0.92,0.21,0.0,False
+F8,8,"Smooth concave-quadratic bowl (unimodal, interior optimum)","Sphere / Ellipsoidal (negated, offset)","separable, unimodal (easy)",high,0.1,0.0,0.96,0.98,0.77,0.39,0.22,0.0,False

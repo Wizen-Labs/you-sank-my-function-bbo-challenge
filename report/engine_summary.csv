@@ -1,0 +1,9 @@
+F,pathology,evidence,engine pick,EI,P(beat)
+F1,local_peak,new best-ever last week (+0) via a 0.000-norm step — verified local gradient,0.644156-0.601884,0.0063,0.03
+F2,plateau,no new best for 3 weeks; incumbent 0.6505,0.785400-0.232500,0.0367,0.36
+F3,local_peak,"default: learnable, not stalled",0.306054-0.540484-0.529115,0.0204,0.38
+F4,local_peak,new best-ever last week (+0.0147) via a 0.007-norm step — verified local gradient,0.439084-0.421578-0.306838-0.465977,0.173,0.59
+F5,boundary_climb,4/4 coords at bounds; mean |rho|=0.60; huge monotone range,1.000000-1.000000-1.000000-0.800000,0.0127,0.05
+F6,plateau,no new best for 3 weeks; incumbent -0.2347,0.246126-0.321303-0.612008-0.717899-0.000000,0.0132,0.22
+F7,solved_lock,analytic identity confirmed (human prior); optimum banked,0.201689-0.150011-0.476874-0.275333-0.311652-0.657301,0.0,0.0
+F8,solved_lock,analytic identity confirmed (human prior); optimum banked,0.100000-0.150000-0.130000-0.150000-0.800000-0.500001-0.200000-0.600000,0.0,0.0

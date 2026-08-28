@@ -1,0 +1,9 @@
+F,recommended,confidence,redirect?,regime,directions,current_method
+F1,INSUFFICIENT EVIDENCE — explore / keep current method,low,,noise-free,x1↑ x2·,source localisation (ZoMBI/inversion)
+F2,GP-BO (EI; mean-exploitation if huge range; regime: noisy),low,,noisy,x1↑ x2·,manual ridge inference
+F3,benchmark refuted -> structural/BO fallback,low,YES,noisy,x1· x2· x3·,exploit benchmark point (identity unconfirmed)
+F4,GP-BO (EI; mean-exploitation if huge range; regime: noise-free),medium,,noise-free,x1↓ x2↓ x3· x4↓,GP-BO (EI)
+F5,GP-BO (EI; mean-exploitation if huge range; regime: noise-free),medium,,noise-free,x1· x2↑ x3↑ x4↑,log-GP posterior-mean
+F6,GP-BO (EI; mean-exploitation if huge range; regime: noisy),medium,,noisy,x1· x2· x3↑ x4↑ x5↓,separable polynomial inversion
+F7,analytic solve (hartmann6 confirmed),high,,noise-free,x1↓ x2↓ x3· x4· x5↓ x6↑,analytic solve (Hartmann-6D)
+F8,separable inversion (per-dim analytic optima),high,,noise-free,x1↓ x2↓ x3↓ x4↓ x5↑ x6· x7↓ x8·,analytic solve (quadratic)

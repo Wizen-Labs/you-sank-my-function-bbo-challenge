@@ -1,0 +1,9 @@
+F,provenance,engine_alt
+F1,engine (local_peak): TR cloud (r=0.04),
+F2,engine (plateau): anti-corr pair x1+0.1 / x2-0.1,
+F3,engine (local_peak): TR cloud (r=0.04),
+F4,engine (local_peak): TR cloud (r=0.04),
+F5,"engine (boundary_climb): coord-scan x4=0.800 (no on-line data — extrapolated, review before trusting)",
+F6,engine (plateau): local jitter,
+F7,engine (solved_lock): repeat detected -> eps +1e-06 on x4 (least-sensitive),
+F8,engine (solved_lock): repeat detected -> eps +1e-06 on x6 (least-sensitive),
